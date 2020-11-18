@@ -8,24 +8,21 @@
 	<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body>
-	<a-scene embedded arjs>
+<a-scene embedded arjs>
 		<a-marker-camera preset='cardbacknew.jpg'>
 			<a-text 
-			value="video!"
-			
-			 <head>
-        <script type="text/javascript" language="JavaScript">
-                  function clickedButton()
-            
-
-                window.location = 'new 5.html'
-
-            }
-             </script>
-      </head>
-	  rotation="-90 0 0"
+			value="MarkarcardVideo!"
+			rotation="-90 0 0"
 			color="red"></a-text>
-		</a-marker-camera>
+</a-marker-camera>
 	</a-scene>
+<script>
+var myVideo = document.getElementById("myVid");
+function playVideo() {
+myVideo.play();
+}
+function pauseVideo() {
+myVideo.pause();
+</script> 	 
 </body>
 </html>
